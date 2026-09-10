@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fundo: #0d1117;
+  --card: #161b22;
+  --card-hover: #1c222b;
+  --texto: #f0f6fc;
+  --texto-secundario: #8b949e;
+  --principal: #7c5cff;
+  --borda: #30363d;
+  --concluida: #3fb950;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+.Cartao{
+    background-color: var(--principal);
+    margin: 0 12px;
+}
