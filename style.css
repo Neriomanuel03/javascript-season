@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -15,11 +16,138 @@
   --concluida: #3fb950;
 }
 
-body{
-    background-color: var(--fundo);
+body {
+  background-color: var(--fundo);
+  color: var(--texto);
 }
 
-.Cartao{
+/* MENU NO TOPO */
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  border-bottom: 1px solid var(--borda);
+    margin-bottom: 20px;
+
+}
+
+/* LINKS */
+
+.logo h1{
+  gap: 10px;
+}
+
+.menu-links ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menu-links a {
+  color: var(--texto);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu-links a:hover {
+  background-color: var(--principal);
+  border-radius: 10px;
+  padding: 5px 0;
+}
+
+.logo-links ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.logo-links a {
+  color: var(--texto);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.logo-links a:hover {
+  color: var(--principal);
+}
+
+.tema p{
+  margin-bottom: 20px;
+}
+
+/* CARTÃO */
+.cartao {
+  background-color: var(--card);
+  padding: 65px 0 70px;
+  margin: 5% 10%;
+  border-radius: 14px;
+  
+}
+
+.tela{
+  background-color: var(--fundo);
+    padding: 65px 0 70px;
+  margin: 0 12px;
+    margin-bottom: 20px;
+
+}
+
+.tema{
+  padding: 0 5%;
+}
+
+
+.adicionar-tarefa {
+    display: flex;
+    align-items: center;
+
+    width: 70%;
+    height: 55px;
+    
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+
+    background-color: var(--card);
+    overflow: hidden;
+}
+
+.adicionar-tarefa input {
+    flex: 1;
+
+    height: 100%;
+    padding: 0 20px;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+    color: var(--texto);
+
+    font-size: 16px;
+}
+
+.adicionar-tarefa input::placeholder {
+    color: var(--texto-secundario);
+}
+
+.adicionar-tarefa button {
+    height: 100%;
+    width: 60px;
+
+    border: none;
+
     background-color: var(--principal);
-    margin: 0 12px;
+    color: var(--texto);
+
+    font-size: 22px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.adicionar-tarefa button:hover {
+    background-color: #6848e8;
 }
