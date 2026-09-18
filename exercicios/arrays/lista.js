@@ -1,4 +1,4 @@
-//Lista de compras
+//Lista de compras usando arrays
 let lista = ["Arroz", "Feijão", "Óleo", "Açúcar", "Leite"];
 let novo_produto = prompt(("Qual produto deseja adicionar a lista?"))
 lista.push(novo_produto);

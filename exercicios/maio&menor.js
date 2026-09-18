@@ -1,3 +1,5 @@
+//exercicio com interação com o usuario, ele informa um numero e o programa compara qual é o maior
+
 const n_1 = Number(prompt("Digite um número: "));
 const n_2= Number(prompt("Digite o segundo número: "));
 
