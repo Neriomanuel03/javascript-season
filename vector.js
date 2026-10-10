@@ -22,3 +22,8 @@ console.log(typeof("tipo original: " +numero));
 console.log(("numero convertido: " +numero));
 console.log("tipo convertido : " +original);
 
+
+
+
+
+
